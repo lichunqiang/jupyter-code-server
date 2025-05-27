@@ -81,6 +81,7 @@ def setup_code_server():
         '--disable-update-check',
         '--disable-file-uploads',
         '--disable-file-downloads',
+        '--disable-telemetry',
         '--ignore-last-opened'  # needed to set a specific working directory
     ]
 
